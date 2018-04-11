@@ -1,0 +1,6 @@
+framework module SYAuthorizationTool {
+  umbrella header "SYAuthorizationTool-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1216FF4AB03909EDE65DB876 /* SYAuthorizationTool.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SYAuthorizationTool.podspec; path = ../SYAuthorizationTool.podspec; sourceTree = "<group>"; };
+		1216FF4AB03909EDE65DB876 /* SYAuthorizationTool.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SYAuthorizationTool.podspec; path = ../SYAuthorizationTool.podspec; sourceTree = "<group>"; };
 		24A44EBBDFA78DF2E9D98AC8 /* Pods_SYAuthorizationTool_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SYAuthorizationTool_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5977161E6CD6E23449CA9779 /* Pods_SYAuthorizationTool_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SYAuthorizationTool_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* SYAuthorizationTool_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SYAuthorizationTool_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -60,11 +60,11 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7EE9C98D05AB6EE07356EE83 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		7EE9C98D05AB6EE07356EE83 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		93CFF8BDC7E3AD6AEFD6BD41 /* Pods-SYAuthorizationTool_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SYAuthorizationTool_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SYAuthorizationTool_Example/Pods-SYAuthorizationTool_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		D114A6E6F01BF6E6F1FCDA69 /* Pods-SYAuthorizationTool_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SYAuthorizationTool_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-SYAuthorizationTool_Example/Pods-SYAuthorizationTool_Example.release.xcconfig"; sourceTree = "<group>"; };
-		DC7C98A524361DB42CD3F285 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		DC7C98A524361DB42CD3F285 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		E0A3DA29BF4595EA7BF5B00E /* Pods-SYAuthorizationTool_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SYAuthorizationTool_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SYAuthorizationTool_Tests/Pods-SYAuthorizationTool_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		FB3C1BEAD38C7D4BD6D5F518 /* Pods-SYAuthorizationTool_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SYAuthorizationTool_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SYAuthorizationTool_Tests/Pods-SYAuthorizationTool_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -250,6 +250,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = shenyuan000;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = U95C62PLQQ;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -542,6 +545,7 @@
 			baseConfigurationReference = 93CFF8BDC7E3AD6AEFD6BD41 /* Pods-SYAuthorizationTool_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = U95C62PLQQ;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SYAuthorizationTool/SYAuthorizationTool-Prefix.pch";
 				INFOPLIST_FILE = "SYAuthorizationTool/SYAuthorizationTool-Info.plist";
@@ -557,6 +561,7 @@
 			baseConfigurationReference = D114A6E6F01BF6E6F1FCDA69 /* Pods-SYAuthorizationTool_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = U95C62PLQQ;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SYAuthorizationTool/SYAuthorizationTool-Prefix.pch";
 				INFOPLIST_FILE = "SYAuthorizationTool/SYAuthorizationTool-Info.plist";
